@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Python應用領域</title>
+<style type="text/css">
+<!--
+.style9 {color: #0000FF}
+.style10 {color:#33CC00}
+-->
+</style>
+</head>
+
+<body>
+<p class="style9">Python應用領域有那些?</p>
+<p>Python不僅僅是一個設計優秀的程序語言，它能夠完成現實中的各種任務，包括開發者們日復一日所做的事情。</p>
+<p>作為編制其他組件、實現獨立程序的工具，它通常應用於各種領域。</p>
+<p>實際上，作為一種通用語言，Python的應用角色幾乎是無限的：<br />
+&nbsp;&nbsp;&nbsp;&nbsp;你可以在任何場合應用Python, 從網站和遊戲開發到機器人和太空梭控制。</p>
+<p>以下介紹一些Python如今最常見的應用領域，以及每個應用領域內所用的一些工具：</p>
+<p class="style10">一.系統編程:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;1.Python 對作業系統服務的內置接口，使其成為編寫可移植的維護作業系統的管理工具和部件<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;（有時也被稱為Shell 工具）的理想工具。Python 程序可以搜索文件和目錄樹，可以運行其他<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;程序，用進程或線程進行並行處理等等。<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;2.Python的標準庫綁定了POSIX以及其他常規作業系統（OS ）工具：環境變量、文件、套接字、管道<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;、進程、多線程、正則表達式模式匹配、命令行參數、標準流接口、Shell命令啟動器、文件名<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;擴展等。此外，很多Python的系統工具設計時都考慮了其可移植性。例如，複製目錄樹的腳本<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;無需做任何修改就可以在幾乎所有的Python平台上運行。
+</p>
+<p class="style10">二.用戶圖形接口:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;1.Python的簡潔以及快速的開發周期十分適合開發GUI程序。Python內置了TKinter的標準面向<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;對象接口Tk GUI API，使Python程序可以生成可移植的本地觀感的GUI 。Python/Tkinter GUI<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不做任何改變就可以運行在微軟Windows 、X Windows（UNIX 和Linux ）以 及Mac OS（Classic<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;和OS X 都支持）等平台上。一個免費的擴展包PMW ，為Tkinter 工具包增加了一些高級部件。此外，<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;基於 C++ 平台的工具包wxPython GUI API 可以使用Python 構建可移植的GUI 。<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;2.諸如PythonCard和Dabo等一些高級工具包是構建在wxPython和Tkinter的基礎API之上的。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;通過適當的庫，你可以使用其他的GUI工具包，例如，Qt 、GTK 、MFC和Swing等。對於運行於瀏覽器<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中的應用或在一些簡單介面的需求驅動下，Jython（Java版本的Python）和Python伺服器端CGI腳本<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;提供了其他一些用戶介面的選擇。
+</p>
+<p class="style10">三.Internet腳本:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;1.Python提供了標準Internet模塊，使Python能夠廣泛地在多種網絡任務中發揮作用，無論是<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在伺服器端還是在客戶端都是如此。腳本可以通過套接字進行通信；從發給伺服器端的CGI腳本的<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;表單中解析信息；通過URL獲取網頁；從獲取的網頁中解析HTML和XML文件；通過XML-RPC、<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SOAP和Telnet通信等。Python的庫使這一切變得相當簡單。<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;2.不僅如此，從網絡上還可以獲得很多使用Python進行Internet編程的第三方工具。例如，HTMLGen<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可以從Python類的描述中生成HTML文件，mod_python包可以使在Apache伺服器上運行的Python<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;程序更具效率並支持Python Server Page這樣的伺服器端模板，而且支持客戶端運行的伺服器端<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Applet 。此外，Python湧現了許多Web開發工具包，例如，Django、TurboGears、Pylons、Zope和<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WebWare，使Python能夠快速構建功能完善和高質量的網站。
+</p>
+<p class="style10">四.組件集成:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;1.在介紹Python作為控制語言時，曾涉及它的組件集成的角色。Python可以通過C/C++系統進行擴展<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;，並能夠嵌套C/C++ 系統的特性，使其能 夠作為一種靈活的粘合語言，腳本化處理其他系統和<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;組件的行為。例如，將一個C庫集成到Python 中，能夠利用Python進行測試並調用庫中的其他<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;組件；將Python嵌入到產品中，在不需要重新編譯整個產品或分發原始碼的情況下，能夠進行<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;產品的單獨定製。<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;2.為了在腳本中使用，在Python連接編譯好組件時，例如，SWIG和SIP這樣的代碼生成工具可以讓這部<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;分工作自動完成。更大一些的框架，例如，Python的微軟Windows所支持的COM 、基於Java實現<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;的Jython、基於.NET實現的IronPython和各種CORBA工具包，提供了多種不同的腳本組件。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例如，在Windows中，Python腳本可利用框架對微軟Word和Excel文件進行腳本處理。
+</p>
+<p class="style10">五.資料庫編程:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;1.對於傳統的資料庫需求，Python提供了對所有主流關係資料庫系統的接口，例如，Sybase 、Oracle 、<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Informix 、ODBC、MySQL、PostgreSQL、SQLite 。Python定義了一種通過Python腳本存取<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SQL資料庫系統的可移植的資料庫API，這個API對於各種底層應用的資料庫系統都是統一的。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;例如，因為廠商的接口實現為可移植的API，所以一個寫給自由軟體MySQL系統的腳本在很大<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;程度上不需改變就可以工作在其他系統上（例如，Oracle）--你僅需要將底層的廠商接口替換<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;掉就可以實現。<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;2.Python標準的pickle模塊提供了一個簡單的對象持久化系統：它能夠讓程序輕鬆地將整個Python對象<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;保存和恢復至文件和文件類的對象中。在網絡上，同樣可以找到名叫ZODB的第三方系統，它為Python<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;腳本提供了完整的面向對象資料庫系統，系統SQLObject可以將關係資料庫映射至Python的類模塊<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;。並且，從Python2.5版本開始，SQLite已經成為Python自帶標準庫的一部分了。
+</p>
+<p class="style10">六.快速原型:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;對於Python程序來說，使用Python或C編寫的組件看起來都是一樣的。正因為如此，我們可以在<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一開始利用Python做系統原型，之後再將組件移植到C或C++這樣的編譯語言上。和其他的原型<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;工具不同，當原型確定後，Python不需要重寫。系統中不需要像C++這樣執行效率的部分可以<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;保持不變，從而使維護和使用變得輕鬆起來。
+</p>
+<p class="style10">七.數值計算和科學計算編程:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NumPy數值編程擴展包括很多高級工具，例如，矩陣對象、標準數學庫的接口等。通過將Python<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;與出於速度考慮而使用編譯語言編寫的數值計算的常規代碼進行集成，NumPy將Python變成一個<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;縝密嚴謹並簡單易用的數值計算工具，這個工具通常可以替代已有的代碼，而這些代碼都是用<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FORTRAN或C++等編譯語言編寫的。其他一些數值計算工具為Python提供了動畫、3D可視化、<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;並行處理等功能的支持。
+</p>
+<p class="style10">八.遊戲、圖像、人工智慧、XML、機器人等:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Python的應用領域很多，遠比本書提到的多得多。例如，可以利用pygame系統使用Python對圖形<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;和遊戲進行編程；用PIL和其他的一些工具進行圖像處理；用PyRo工具包進行機器人控制編程；<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用xml庫、xmlrpclib模塊和其他一些第三方擴展進行XML解析；使用神經網絡仿真器和專業的<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系統shell進行AI編程；使用NLTK包進行自然語言分析：甚至可以使用PySol程序下棋娛樂。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一般來說，這些特定領域當中有許多在很大程度上都是Python組件集成角色的再次例證。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;採用C這樣的編譯語言編寫庫組件，增加Python至其前端，這樣的方式使Python在不同領域<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;廣泛地發揮其自身價值。對於一種支持集成的通用型語言，Python 的應用極其廣泛。
+</p>
+<p class="style10">九.企業與政務應用:</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目前，Python已經成功的實現企業級應用，在全球，已經有很多公司採用Python進行企業級軟體<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;的開發和應用，比如：ERP和CRM這樣的應用。同時，通過Python技術，成功的實現了許多政務應用。<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;用Python寫的較大的系統有：<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zope：一個應用程式伺服器，具有內容管理、團隊開發、XML、面向對象、SOAP接口等一系先進特性<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;，且開放源碼。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gadfly：一個用Python寫的面向對象關係型資料庫，具有小巧、快速、<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可移植性好，具有大部分SQL語言特性，且開放源碼。<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;還有一些比較有名的公司也在用Python進行原型的開發，如Microsoft、IBM等，<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;還有：紅帽(Red Hat )曾用Python和Tk一起成功開發配置和管理作業系統的<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;可視介面。整個系統可以全面控制Linux作業系統，並根據用戶選擇對配置<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文件作自動更新。
+</p>
+</body>
+</html>

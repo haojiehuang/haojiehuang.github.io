@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>JavaScript Tree Control</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" /><html>
+<link rel="StyleSheet" href="dtree.css" type="text/css" />
+<script type="text/javascript" src="dtree.js"></script>
+<link rel="stylesheet" href="new_style.css" type="text/css">
+<link rel="stylesheet" href="css.css" type="text/css">	
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table align="left" border="0" width="155" cellspacing="0" cellpadding="0">     
+    <tr>
+        <td>
+            <div class="dtree">
+                <a href="javascript: d.openAll();" title="Open Tree">全部打開</a> | <a href="javascript: d.closeAll();" title="Close Tree">全部關閉</a><br>          
+                    <script type="text/javascript">
+                    <!--          
+                        d = new dTree('d');
+
+                        d.add(0,-1,'Python語言介紹');
+
+                        d.add(1,0,'Python簡介');
+                        d.add(101,1,'Python語言特性', "./basic/basic-01.html");
+						d.add(102,1,'Python應用領域', "./basic/basic-02.html");					
+
+                        document.write(d);          
+                    //-->
+                </script>
+            </div>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
