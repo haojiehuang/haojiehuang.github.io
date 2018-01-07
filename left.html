@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title>JavaScript Tree Control</title>
+<title>Python Document</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf8" /><html>
 <link rel="StyleSheet" href="dtree.css" type="text/css" />
 <script type="text/javascript" src="dtree.js"></script>
@@ -19,14 +19,16 @@
                     <script type="text/javascript">
                     <!--          
                         d = new dTree('d');
+	         		
+                        d.add(0,-1,'Python Doc');
+          
+                        d.add(1,0,'Anaconda下載及安裝','./anaconda/anaconda.html');
+						d.add(2,0,'pymongo套件安裝','./pymongo/pymongo.html');
+						d.add(3,0,'mysql套件安裝','./mysql/mysql.html');
+						d.add(4,0,'Fiddler下載及安裝','./fiddler/fiddler_1.html');
+						d.add(5,0,'Fiddler使用說明','./fiddler/fiddler_2.html');
 
-                        d.add(0,-1,'Python語言介紹');
-
-                        d.add(1,0,'Python簡介');
-                        d.add(101,1,'Python語言特性', "./basic/basic-01.html");
-						d.add(102,1,'Python應用領域', "./basic/basic-02.html");					
-
-                        document.write(d);          
+			            document.write(d);
                     //-->
                 </script>
             </div>
